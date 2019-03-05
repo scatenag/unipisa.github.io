@@ -13,20 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Università di Pisa GitHub Organization
-email: davide.borgioli@unipi.it #TODO: email dedicata amministratore (admin-unipisa)
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Università di Pisa @ GitHub #Organization
+email: guido.scatena@unipi.it #TODO: email dedicata amministratore (admin-unipisa)
+description: 
+  Official GitHub Organization of Università di Pisa unipi.it
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #Serverless URLS
-add_repo: "https://qz7961lmqi.execute-api.us-east-1.amazonaws.com/prod/add_repo"
-contact_us: "https://qz7961lmqi.execute-api.us-east-1.amazonaws.com/prod/contact_us"
-featured_repo: "https://qz7961lmqi.execute-api.us-east-1.amazonaws.com/prod/feature_repo"
-send_conf_email: "https://vq6t7mxduh.execute-api.us-east-1.amazonaws.com/production/sendConfirmationEmail"
+#add_repo: "https://qz7961lmqi.execute-api.us-east-1.amazonaws.com/prod/add_repo"
+#contact_us: "https://qz7961lmqi.execute-api.us-east-1.amazonaws.com/prod/contact_us"
+#featured_repo: "https://qz7961lmqi.execute-api.us-east-1.amazonaws.com/prod/feature_repo"
+#send_conf_email: "https://vq6t7mxduh.execute-api.us-east-1.amazonaws.com/production/sendConfirmationEmail"
 
 # Build settings
 markdown: kramdown

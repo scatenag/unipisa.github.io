@@ -25,8 +25,8 @@ a.content-anchor {
 .page-header {
 	position: fixed;
 	width: 100%;
-	background-color: #510000;
-  	background-image: linear-gradient(-45deg, #510000, #ff6600);
+	background-color: #c1f1dd;
+  	background-image: linear-gradient(-45deg,  #71f4f8, #0835fd);
   	z-index: 1;
   }
 
@@ -47,7 +47,7 @@ input.rounded {
 }
 
 input.rounded:focus {
-	border-color: #159957;
+	border-color: #0835fd;
 }
 
 textarea.rounded {
@@ -62,7 +62,7 @@ textarea.rounded {
 }
 
 textarea.rounded:focus {
-	border-color: #159957;
+	border-color: #0835fd;
 }
 
 .vt_img_container {
@@ -79,6 +79,11 @@ textarea.rounded:focus {
 
 .header_img_vt {
 	width: 100%;
+	height: auto;
+}
+
+.header_img_vt_80 {
+	width: 80%;
 	height: auto;
 }
 
@@ -129,11 +134,11 @@ textarea.rounded:focus {
 	-webkit-border-radius: 10;
 	-moz-border-radius: 10;
 	border-radius: 10px;
-	border: solid #12874d 2px;
+	border: solid #0835fd 2px;
 	font-family: monospace;
 	color: #ffffff;
 	font-size: 18px;
-	background: #18b466;
+	background: #0835fd;
 	padding: 3px 15px 3px 15px;
 	text-decoration: none;
 }
@@ -144,7 +149,7 @@ textarea.rounded:focus {
 }
 
 .btn-visible:active{
-	background: #0c5a33;
+	background: #0835fd;
 }
 
 .btn-featured {
