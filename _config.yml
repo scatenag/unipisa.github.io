@@ -28,8 +28,8 @@ description:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
-gems:
+theme: jekyll-materialdocs
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
